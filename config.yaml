@@ -1,0 +1,48 @@
+languageCode: "en-us"
+baseUrl: ""
+title: "Devansh's Blog"
+theme: "anubis"
+paginate: 10
+enableRobotsTXT: true
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      title: About
+      url: /about/
+      weight: 1
+    - identifier: archive
+      name: Archive
+      title: Archive
+      url: /posts/
+      weight: 2
+
+params:
+  author: "Devansh Singh"
+  email: devanshamity@gmail.com
+  avatar: "/images/me.png"
+  description: ""
+  dateFormat: "2006-01-02"
+  paginationSinglePost: true
+  style: dark-without-switcher
+  readMore: true
+  readNextPosts: 5
+  disableSummary: false
+  copyCodeButton: true
+  rssAsSocialIcon: false
+  graphcommentId: ""
+  social:
+    - id: github
+      name: Devansh3712
+    - id: linkedin
+      name: devanshsingh3
+    - id: twitter
+      name: cheeniipapa
+    - id: spotify
+      name: pcc9igf8p4dtvq7di5csiv413
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
